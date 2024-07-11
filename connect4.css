@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: rgb(180, 221, 243);
+}
+
+h1, h2{
+    margin: 5px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+#board{
+    height: 470px;
+    width: 490px;
+
+    background: linear-gradient(rgb(252, 122, 122),rgb(243, 243, 162));
+    border: 5px solid rgb(0, 0, 0);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+
+    background:  rgb(180, 221, 243);
+    border-radius: 50%;
+    
+}
+
+.red-piece{
+background-color: red;
+}
+
+.yellow-piece{
+    background-color: yellow;
+    }
